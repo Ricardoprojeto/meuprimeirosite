@@ -13,3 +13,15 @@ figure{
     width: 80%;
     margin: auto;
 }
+
+h1, h2{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+}
+p{
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5rem;
+}
+div.center{
+    text-align: center;
+}
