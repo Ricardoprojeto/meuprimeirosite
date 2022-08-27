@@ -22,6 +22,12 @@ p{
     font-family: 'Great Vibes', cursive;
     font-size: 1.5rem;
 }
-div.center{
+.videos{
+    width: 50%;
+    float: left;
     text-align: center;
+}
+footer{
+    text-align: center;
+    clear: both;
 }
