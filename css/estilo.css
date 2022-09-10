@@ -1,32 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+ul,li{
+    list-style: none;
+}
 html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #0055ff;
+    background-color: #000000;
+    color: #ffff;
 }
 img{
     width: 10% ;
 }
 
 figure{
-    text-align: center;
+    text-align: center; 
 }
-
 
 .container{
     width: 80%;
     margin: auto;
 }
 
-h1, h2{
+h1,h2{
+    margin-top: 1%;
+    margin-bottom:1%;
+    line-height: 1.5;
     text-align: center;
     font-family: 'Courgette', cursive;
 }
-p{
+p{line-height: 1.5;
     font-family: 'Great Vibes', cursive;
     font-size: 1.5rem;
 }
 .videos{
+    margin-bottom: 4%;
     width: 50%;
     float: left;
     text-align: center;
@@ -34,16 +45,50 @@ p{
 footer{
     text-align: center;
     clear: both;
-    background: #62c4c7;
+    background: #000000;
     color: #f0faff;
     padding-bottom: 3%;
     padding-top: 3%;
+    padding-inline-end: 1%;
 }
 header{
-    background: #48887a;
+    background: #535151;
     padding: 3%;
 }
 
 .menu{
      text-align: center;
 }
+
+.menu ul li{
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+a:link {
+    color: rgb(4, 0, 235);
+    font-weight: bolder;
+    
+  }
+  
+  /* unvisited link */
+  a:visited {
+    color: rgb(6, 155, 255);
+    font-weight: bolder;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #b9b1c9;
+    border-radius: 14px;
+    padding: 0.7%;
+    border-radius: 25px;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(0, 255, 234);
+  }
