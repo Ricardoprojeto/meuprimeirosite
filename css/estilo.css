@@ -82,7 +82,7 @@ a:link {
   /* mouse over link */
   a:hover {
     color: rgb(0, 0, 0);
-    background-color: #b9b1c9;
+    background-color: #756d6d;
     border-radius: 14px;
     padding: 0.7%;
     border-radius: 25px;
@@ -91,4 +91,15 @@ a:link {
   /* selected link */
   a:active {
     color: rgb(0, 255, 234);
+  }
+  .ane{
+      width: 300px;
+      height: 800px;
+      margin-top: 2%;
+      background-color: #756d6d;
+      margin-bottom: 2s;
+      transition: width 2s ease-in;
+  }
+  .ane:hover{ 
+      width: 800px;
   }
